@@ -49,7 +49,7 @@ export const projects = [
     id: 6,
     title: "Det Søde Bageværk ",
     description: "Bakery.",
-    image: "/portfolio/images/otto-norin-uG3Vu5TXKxE-unsplash.jpg",
+    image: "/portfolio/images/mae-mu-m9pzwmxm2rk-unsplash.jpg",
     technologies: ["JavaScript"],
     live: "https://albina1302new.github.io/bakery/",
     github: "https://github.com/Albina1302new/bakery",

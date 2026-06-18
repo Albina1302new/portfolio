@@ -95,7 +95,7 @@
   .card {
     display: grid;
     grid-template-columns: 58% 42%;
-    min-height: 520px;
+    height: 520px;
   }
 
   .imageBox {
