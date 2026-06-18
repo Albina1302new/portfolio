@@ -2,6 +2,8 @@ import styles from "./About.module.css";
 import { FiMapPin, FiMail, FiDownload } from "react-icons/fi";
 
 function About() {
+  const base = import.meta.env.BASE_URL;
+
   return (
     <section className={styles.about} id="about">
       <div className={styles.container}>
@@ -26,10 +28,18 @@ function About() {
           </p>
 
           <div className={styles.cvButtons}>
-           
+            <a
+              href={`${base}docs/Albina-Biriukova-Resume-EN.pdf`}
+              target="_blank"
+              rel="noreferrer"
+              className={styles.cvPrimary}
+            >
+              Resume (EN)
+              <FiDownload />
+            </a>
 
             <a
-              href="../../../public/docs/Albina-Biriukova-CV-Resume-DK.pdf"
+              href={`${base}docs/Albina-Biriukova-CV-DK.pdf`}
               target="_blank"
               rel="noreferrer"
               className={styles.cvSecondary}
