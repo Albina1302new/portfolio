@@ -29,7 +29,7 @@ function About() {
            
 
             <a
-              href="/docs/Albina-Biriukova-CV-Resume-DK.pdf"
+              href="../../../public/docs/Albina-Biriukova-CV-Resume-DK.pdf"
               target="_blank"
               rel="noreferrer"
               className={styles.cvSecondary}
