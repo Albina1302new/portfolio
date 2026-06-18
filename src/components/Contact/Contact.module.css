@@ -1,0 +1,142 @@
+.contact {
+  padding: 64px 20px 24px;
+  background: linear-gradient(180deg, #171412 0%, #221a17 100%);
+  color: white;
+}
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.label {
+  color: #c9977e;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.contact h2 {
+  margin: 16px auto;
+  max-width: 650px;
+
+  font-family: "Playfair Display", serif;
+  font-size: clamp(32px, 4vw, 58px);
+  line-height: 1.05;
+  color: #fcfaf8;
+}
+
+.text {
+  max-width: 500px;
+  margin: 0 auto 30px;
+
+  color: #c7b6ab;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.ctaBtn {
+  display: inline-block;
+  padding: 14px 28px;
+  border-radius: 999px;
+
+  text-decoration: none;
+  background: #a66d53;
+  color: white;
+
+  font-size: 13px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+
+  transition: all 0.3s ease;
+}
+
+.ctaBtn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 14px 30px rgba(166, 109, 83, 0.35);
+}
+
+.socials {
+  margin-top: 34px;
+
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+}
+
+.socials a {
+  width: 46px;
+  height: 46px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+  text-decoration: none;
+
+  font-size: 18px;
+  color: #c9977e;
+  background: rgba(255, 255, 255, 0.05);
+
+  transition: all 0.3s ease;
+}
+
+.socials a:hover {
+  background: #a66d53;
+  color: white;
+}
+
+.bottom {
+  margin-top: 42px;
+  padding-top: 22px;
+
+  border-top: 1px solid rgba(201, 151, 126, 0.18);
+}
+
+.logo {
+  width: 58px;
+  height: 58px;
+
+  margin: 0 auto 14px;
+
+  display: grid;
+  place-items: center;
+
+  border-radius: 50%;
+  border: 1px solid #c9977e;
+
+  color: #c9977e;
+  font-size: 24px;
+  font-family: "Playfair Display", serif;
+}
+
+.bottom p {
+  color: #9f8c81;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+/* Tablet */
+@media (min-width: 768px) {
+  .contact {
+    padding: 80px 32px 28px;
+  }
+
+  .socials {
+    gap: 18px;
+  }
+}
+
+/* Desktop */
+@media (min-width: 1024px) {
+  .contact {
+    padding: 90px 40px 30px;
+  }
+
+  .contact h2 {
+    font-size: clamp(32px, 4vw, 50px);
+  }
+}

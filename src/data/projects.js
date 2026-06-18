@@ -1,0 +1,87 @@
+export const projects = [
+  {
+    id: 1,
+    title: "Planty",
+    description: "WordPress webshop with Elementor.",
+    image: "/images/plants-hydrangea-border.jpg",
+    technologies: ["WordPress", "Elementor"],
+    live: "https://planty.web-mcdm.dk/",
+    
+  },
+
+  {
+    id: 2,
+    title: "Glamping",
+    description: "React SPA with API and dynamic routes.",
+    image: "/images/ophold.jpg",
+    technologies: ["React", "API", "Router"],
+    live: "https://albina1302new.github.io/glamping/",
+    github: "https://github.com/Albina1302new/glamping",
+  },
+  {
+    id: 3,
+    title: "React Shop",
+    description: "E-commerce website with filters and favorites.",
+    image: "/images/hero_img.jpg",
+    technologies: ["React", "Vite", "CSS"],
+    live: "https://albina1302new.github.io/react-shop/",
+    github: "https://github.com/Albina1302new/react-shop",
+  },
+  {
+    id: 4,
+    title: "Recipes App",
+    description: "Recipe website with API integration and routing.",
+    image: "/images/edward-howell-vvUy1hWVYEA-unsplash.jpg",
+    technologies: ["React", "API", "CSS"],
+    live: "https://albina1302new.github.io/recipes-page/",
+    github: "https://github.com/Albina1302new/recipes-page",
+  },
+
+  {
+    id: 5,
+    title: "AI Developer",
+    description: "Landing page for AI services.",
+    image: "/images/about-us-desktop.jpg",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live: "https://albina1302new.github.io/Ai-Developer/",
+    github: "https://github.com/Albina1302new/Ai-Developer",
+  },
+  {
+    id: 6,
+    title: "Glamping",
+    description: "React SPA with API and dynamic routes.",
+    image: "/images/projects/glamping.jpg",
+    technologies: ["React", "API", "Router"],
+    live: "#",
+    github: "#",
+  },
+  {
+    id: 7,
+    title: "Website",
+    description: "Responsive company website.",
+    image: "/images/people-office 1.jpg",
+    technologies: ["HTML", "CSS"],
+    live: "https://albina1302new.github.io/goit-markup-hw-06/",
+    github: "https://github.com/Albina1302new/goit-markup-hw-06",
+  },
+
+  {
+    id: 8,
+    title: "Kultur Site",
+    description: "Fotograf gallery website.",
+    image: "/images/fotograf.jpg",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live: "https://albina1302new.github.io/kulturSite/",
+    github: "https://github.com/Albina1302new/kulturSite",
+  },
+
+  {
+    id: 9,
+    title: "Coffee Joy",
+    description: "Group project ",
+    image: "/images/coffee-beans_desk.png",
+    technologies: ["HTML", "CSS", "JavaScript"],
+    live: "https://artemshevchenko-007.github.io/project-group-7/",
+    github: "https://github.com/artemshevchenko-007/project-group-7",
+  },
+];

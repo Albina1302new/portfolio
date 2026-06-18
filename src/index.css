@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.content h1 {
+  font-size: 56px;
+}
+
+@media (min-width: 768px) {
+  .content h1 {
+    font-size: 72px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content h1 {
+    font-size: 96px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .content h1 {
+    font-size: 100px;
+  }
+}
