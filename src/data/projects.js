@@ -47,12 +47,12 @@ export const projects = [
   },
   {
     id: 6,
-    title: "Glamping",
-    description: "React SPA with API and dynamic routes.",
-    image: "/portfolio/images/projects/glamping.jpg",
-    technologies: ["React", "API", "Router"],
-    live: "#",
-    github: "#",
+    title: "Det Søde Bageværk ",
+    description: "Bakery.",
+    image: "/portfolio/images/mae-mu-m9pzwmxm2rk-unsplash.jpg",
+    technologies: ["JavaScript"],
+    live: "https://albina1302new.github.io/bakery/",
+    github: "https://github.com/Albina1302new/bakery",
   },
   {
     id: 7,
