@@ -10,26 +10,20 @@ function About() {
         <div className={styles.heading}>
           <span>About Me</span>
 
-          <h2>
-            Passionate about creating beautiful and functional web experiences.
-          </h2>
+          <h2>Creating modern websites with creativity and purpose.</h2>
         </div>
 
         <div className={styles.content}>
           <p>
-            I have lived in Denmark for 4 years and have been studying web
-            development, focusing on combining creativity with technical
-            knowledge.
+            I’m a Web Development student living in Denmark with a strong
+            interest in frontend development and digital design.
           </p>
-
           <p>
-            I am goal-oriented, responsible and detail-focused. I enjoy creating
-            clean, responsive and user-friendly websites.
+            I enjoy turning ideas into modern web experiences through clean
+            code, responsive design and attention to detail.
           </p>
 
           <div className={styles.cvButtons}>
-            
-
             <a
               href={`${base}docs/AlbinaBiriukova-CV.pdf`}
               target="_blank"

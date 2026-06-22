@@ -16,8 +16,8 @@ function Hero() {
         <h2>Frontend Developer</h2>
 
         <p className={styles.text}>
-          I create responsive, user-friendly and modern websites with focus on
-          design, clean code and good user experience.
+          Currently looking for an internship to gain real-world experience and
+          continue growing.
         </p>
 
         <div className={styles.buttons}>

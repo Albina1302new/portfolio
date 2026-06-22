@@ -8,11 +8,11 @@ function Contact() {
       <div className={styles.container}>
         <span className={styles.label}>Contact</span>
 
-        <h2>Let’s build together.</h2>
+        <h2>Looking for an internship</h2>
 
         <p className={styles.text}>
-          I’m open to internship opportunities, junior frontend roles and
-          creative collaborations.
+          Currently looking for an internship in frontend or web development,
+          where I can learn, grow and gain real-world experience.
         </p>
 
         <a href="mailto:alja.birjukova@gmail.com" className={styles.ctaBtn}>
