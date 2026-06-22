@@ -28,18 +28,10 @@ function About() {
           </p>
 
           <div className={styles.cvButtons}>
-            <a
-              href={`${base}docs/Albina-Biriukova-Resume-EN.pdf`}
-              target="_blank"
-              rel="noreferrer"
-              className={styles.cvPrimary}
-            >
-              Resume (EN)
-              <FiDownload />
-            </a>
+            
 
             <a
-              href={`${base}docs/Albina-Biriukova-CV-DK.pdf`}
+              href={`${base}docs/AlbinaBiriukova-CV.pdf`}
               target="_blank"
               rel="noreferrer"
               className={styles.cvSecondary}
