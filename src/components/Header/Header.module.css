@@ -11,7 +11,7 @@
   width: 100%;
   min-height: 64px;
   padding: 10px 16px;
-
+  
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -26,9 +26,15 @@
 .logo {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 14px;
   text-decoration: none;
-  color: #2d201b;
+}
+
+.logoImg {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  flex-shrink: 0;
 }
 
 .logoBox {
@@ -54,6 +60,8 @@
 }
 
 .logoName {
+    color: #111827;
+  
   font-size: 15px;
   font-weight: 700;
 }

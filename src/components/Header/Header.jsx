@@ -11,7 +11,11 @@ function Header() {
       <header className={styles.header}>
         <nav className={styles.nav}>
           <a href="#home" className={styles.logo} onClick={closeMenu}>
-            <div className={styles.logoBox}>AB</div>
+            <img
+              src="/portfolio/images/logoAlbina.png"
+              alt="Albina Biriukova Logo"
+              className={styles.logoImg}
+            />
 
             <div className={styles.logoInfo}>
               <span className={styles.logoName}>Albina Biriukova</span>
@@ -49,7 +53,11 @@ function Header() {
       >
         <div className={styles.sidebarHeader}>
           <a href="#home" className={styles.logo} onClick={closeMenu}>
-            <div className={styles.logoBox}>AB</div>
+            <img
+              src="/portfolio/images/logoAlbina.png"
+              alt="Albina Biriukova Logo"
+              className={styles.logoImg}
+            />
 
             <div className={styles.logoInfo}>
               <span className={styles.logoName}>Albina Biriukova</span>
@@ -85,7 +93,7 @@ function Header() {
         </nav>
 
         <div className={styles.sidebarCard}>
-          <p>Let’s create something beautiful together.</p>
+          <p>Let’s create  together.</p>
           <a href="#contact" onClick={closeMenu}>
             Get in Touch
           </a>
