@@ -15,12 +15,21 @@ function Contact() {
           where I can learn, grow and gain real-world experience.
         </p>
 
-        <a href="mailto:alja.birjukova@gmail.com" className={styles.ctaBtn}>
+        <a
+          href="https://mail.google.com/mail/?view=cm&fs=1&to=alja.birjukova@gmail.com"
+          target="_blank"
+          rel="noreferrer"
+          className={styles.ctaBtn}
+        >
           Get in Touch
         </a>
 
         <div className={styles.socials}>
-          <a href="mailto:alja.birjukova@gmail.com">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=alja.birjukova@gmail.com"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FiMail />
           </a>
 
