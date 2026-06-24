@@ -43,7 +43,7 @@ function Contact() {
 
         <div className={styles.bottom}>
           <div className={styles.logo}>AB</div>
-          <p>© 2026 Albina Biriukova. All rights reserved.</p>
+          <p>© 2026 Albina Biriukova. Frontend Developer · Denmark</p>
         </div>
       </div>
     </footer>
