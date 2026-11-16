@@ -29,6 +29,7 @@ function Contact() {
             href="https://mail.google.com/mail/?view=cm&fs=1&to=alja.birjukova@gmail.com"
             target="_blank"
             rel="noreferrer"
+            aria-label="Email"
           >
             <FiMail />
           </a>
@@ -37,6 +38,7 @@ function Contact() {
             href="https://github.com/Albina1302new"
             target="_blank"
             rel="noreferrer"
+            aria-label="GitHub"
           >
             <FaGithub />
           </a>
@@ -45,6 +47,7 @@ function Contact() {
             href="https://www.linkedin.com/in/albina-biriukova-4225b4415/?skipRedirect=true"
             target="_blank"
             rel="noreferrer"
+            aria-label="LinkedIn"
           >
             <FaLinkedinIn />
           </a>
@@ -52,7 +55,15 @@ function Contact() {
 
         <div className={styles.bottom}>
           <div className={styles.logo}>AB</div>
+
           <p>© 2026 Albina Biriukova. Frontend Developer · Denmark</p>
+
+          <a
+            href={`${import.meta.env.BASE_URL}?page=privacy-policy`}
+            className={styles.privacyLink}
+          >
+            Privacy Policy
+          </a>
         </div>
       </div>
     </footer>

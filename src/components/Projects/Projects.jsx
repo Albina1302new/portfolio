@@ -14,14 +14,15 @@ function Projects() {
     <section className={styles.projects} id="projects">
       <div className={styles.container}>
         <span className={styles.label}>Projects</span>
-        <h2>Education Projects</h2>
+        <h2>Selected Projects</h2>
 
         <Swiper
           spaceBetween={30}
           slidesPerView={1}
+          loop={true}
           className={styles.slider}
           onSwiper={(swiper) => (swiperRef.current = swiper)}
-          onSlideChange={(swiper) => setActiveIndex(swiper.activeIndex)}
+          onSlideChange={(swiper) => setActiveIndex(swiper.realIndex)}
         >
           {projects.map((project) => (
             <SwiperSlide key={project.id}>
@@ -41,13 +42,17 @@ function Projects() {
                   </div>
 
                   <div className={styles.links}>
-                    <a href={project.live} target="_blank" rel="noreferrer">
-                      Live Demo
-                    </a>
+                    {project.live && (
+                      <a href={project.live} target="_blank" rel="noreferrer">
+                        Live Demo
+                      </a>
+                    )}
 
-                    <a href={project.github} target="_blank" rel="noreferrer">
-                      GitHub
-                    </a>
+                    {project.github && (
+                      <a href={project.github} target="_blank" rel="noreferrer">
+                        GitHub
+                      </a>
+                    )}
                   </div>
                 </div>
               </article>
@@ -56,15 +61,17 @@ function Projects() {
         </Swiper>
 
         <div className={styles.controls}>
-          <button onClick={() => swiperRef.current.slidePrev()}>←</button>
+          <button onClick={() => swiperRef.current?.slidePrev()}>←</button>
 
           <div className={styles.counter}>
             <span>{String(activeIndex + 1).padStart(2, "0")}</span>
+
             <span>/</span>
+
             <span>{String(projects.length).padStart(2, "0")}</span>
           </div>
 
-          <button onClick={() => swiperRef.current.slideNext()}>→</button>
+          <button onClick={() => swiperRef.current?.slideNext()}>→</button>
         </div>
       </div>
     </section>

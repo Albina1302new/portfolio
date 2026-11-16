@@ -5,8 +5,16 @@ import Header from "./components/Header/Header";
 import Hero from "./components/Hero/Hero";
 import Projects from "./components/Projects/Projects";
 import Skills from "./components/Skills/Skills";
+import PrivacyPolicy from "./components/PrivacyPolicy/PrivacyPolicy";
 
 function App() {
+  const params = new URLSearchParams(window.location.search);
+  const isPrivacyPage = params.get("page") === "privacy-policy";
+
+  if (isPrivacyPage) {
+    return <PrivacyPolicy />;
+  }
+
   return (
     <>
       <Header />

@@ -140,3 +140,18 @@
     font-size: clamp(32px, 4vw, 50px);
   }
 }
+
+/* PRIVACY POLICY LINK */
+
+.privacyLink {
+  color: inherit;
+  font-size: 13px;
+  text-decoration: none;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.privacyLink:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

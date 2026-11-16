@@ -4,7 +4,7 @@ export const projects = [
     title: "Sophie’s Hidden Gems",
     description:
       "My first client website — a custom travel platform built with WordPress and Elementor.",
-    image: "images/sophie-hidden-gems.jpg",
+    image: "images/IMG_9704.jpeg",
     technologies: ["WordPress", "Elementor", "JavaScript", "CSS"],
     live: "https://sophieshiddengems.dk/",
   },
@@ -54,17 +54,9 @@ export const projects = [
     live: "https://albina1302new.github.io/Ai-Developer/",
     github: "https://github.com/Albina1302new/Ai-Developer",
   },
+  
   {
     id: 7,
-    title: "Glamping",
-    description: "React SPA with API and dynamic routes.",
-    image: "images/glamping.jpg",
-    technologies: ["React", "API", "Router"],
-    live: "#",
-    github: "#",
-  },
-  {
-    id: 8,
     title: "Website",
     description: "Responsive company website.",
     image: "images/people-office 1.jpg",
@@ -74,7 +66,7 @@ export const projects = [
   },
 
   {
-    id: 9,
+    id: 8,
     title: "Kultur Site",
     description: "Fotograf gallery website.",
     image: "images/fotograf.jpg",
@@ -84,7 +76,7 @@ export const projects = [
   },
 
   {
-    id: 10,
+    id: 9,
     title: "Coffee Joy",
     description: "Group project ",
     image: "images/coffee-beans_desk.png",
